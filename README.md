@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-1.5_Pro-4285F4?logo=google&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-2.0_Flash-4285F4?logo=google&logoColor=white)
 
 Ferramenta que extrai transcrições de vídeos do YouTube e gera resumos automáticos usando a inteligência artificial do Google Gemini Pro.
 
