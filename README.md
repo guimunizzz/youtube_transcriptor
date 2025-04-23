@@ -31,7 +31,7 @@ Ferramenta que extrai transcrições de vídeos do YouTube e gera resumos autom�
 ### Instalação
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuusuario/transcritor-youtube.git
+git clone https://github.com/guimunizzz/youtube_transcriptor
 cd transcritor-youtube
 ```
 Instale as dependências:
