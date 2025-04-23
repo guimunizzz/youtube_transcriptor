@@ -1,68 +1,40 @@
-📝 YouTube Transcript & Summary Generator
-✨ Um aplicativo que extrai transcrições de vídeos do YouTube e gera resumos automáticos usando IA (Gemini 2.0-flash)
+# 🎥 YouTube Transcript & AI Summary Generator
 
-🚀 Recursos
-✅ Extrai transcrições em português ou inglês
-✅ Gera resumos automáticos com IA
-✅ Interface amigável com Streamlit
-✅ Estatísticas do vídeo (palavras, caracteres)
-✅ Tradução automática (se necessário)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-1.5_Pro-4285F4?logo=google&logoColor=white)
 
-🛠️ Tecnologias
-Python 3.10+
+A powerful tool that extracts YouTube video transcripts and generates AI-powered summaries using Google's Gemini Pro.
 
-Streamlit (interface web)
+## 🌟 Features
 
-Pytube (download de metadados do YouTube)
+- 🎬 **Automatic Transcript Extraction** - Get video subtitles in Portuguese or English
+- ✨ **AI-Powered Summaries** - Generate concise summaries using Gemini 1.5 Pro
+- 🌍 **Translation Support** - Optional translation to Portuguese
+- 📊 **Video Analytics** - Character/word count and statistics
+- 🖥️ **User-Friendly Interface** - Simple Streamlit web interface
 
-YouTube Transcript API (extração de legendas)
+## 🛠️ Tech Stack
 
-Google Gemini 2.0 Flash (IA para resumos)
+- **Backend**: Python 3.10+
+- **Web Framework**: Streamlit
+- **YouTube Integration**: Pytube, youtube-transcript-api
+- **AI Processing**: Google Generative AI (Gemini 1.5 Pro)
+- **Environment**: python-dotenv
 
-⚡ Como Usar
-Instale as dependências:
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.10+
+- Google API key (for Gemini)
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/youtube-transcript-summarizer.git
+cd youtube-transcript-summarizer
+
+Install dependencies:
 
 bash
 pip install -r requirements.txt
-Configure sua API Key do Gemini:
-Crie um arquivo .env e adicione:
-
-env
-GOOGLE_API_KEY=sua_chave_aqui
-Execute o app:
-
-bash
-streamlit run main.py
-No navegador:
-
-Cole a URL de um vídeo do YouTube
-
-Veja a transcrição
-
-Clique em "✨ GERAR RESUMO AUTOMÁTICO"
-
-📋 Estrutura do Projeto
-.
-├── main.py              # Aplicação principal
-├── youtube_utils.py     # Extração de transcrições
-├── gemini_utils.py      # Integração com a IA
-├── requirements.txt     # Dependências
-├── .env.example         # Modelo para variáveis de ambiente
-└── README.md            # Este arquivo
-🌟 Exemplo de Uso
-Demonstração
-(Substitua por um screenshot real depois)
-
-📌 Notas
-Requer conexão com internet
-
-Vídeos com restrição de idade podem não funcionar
-
-Limite de caracteres para resumos: ~30k tokens
-
-📄 Licença
-MIT © [Seu Nome]
-
-🔗 Disponível no GitHub: github.com/seu-usuario/youtube-ai-summarizer
-
-✨ Contribuições são bem-vindas! Envie um PR ou abra uma issue.
