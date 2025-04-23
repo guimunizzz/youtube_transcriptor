@@ -33,15 +33,20 @@ Ferramenta que extrai transcrições de vídeos do YouTube e gera resumos autom�
 ```bash
 git clone https://github.com/seuusuario/transcritor-youtube.git
 cd transcritor-youtube
+```
 Instale as dependências:
-
+```
 pip install -r requirements.txt
+```
 Crie o arquivo .env:
-
+```
 GOOGLE_API_KEY=sua_chave_aqui
-Como Usar
+```
+### Como Usar
 Execute a aplicação:
+```
 streamlit run main.py
+```
 Depois:
 
 Cole a URL de um vídeo do YouTube
@@ -49,7 +54,7 @@ Cole a URL de um vídeo do YouTube
 Veja a transcrição extraída
 
 Clique em "✨ GERAR RESUMO" para análise por IA
-
+```
 📂 Estrutura do Projeto
 .
 ├── main.py                 # Lógica principal
@@ -58,10 +63,9 @@ Clique em "✨ GERAR RESUMO" para análise por IA
 ├── requirements.txt        # Dependências
 ├── .env.example            # Modelo de configuração
 └── README.md               # Documentação
-📸 Capturas de Tela
-Pré-visualização
+```
 
-⚠️ Limitações
+## ⚠️ Limitações
 Requer conexão com internet
 
 Pode não funcionar com vídeos restritos
@@ -70,7 +74,7 @@ Disponibilidade de legendas depende do vídeo
 
 Versão gratuita da API Gemini tem limites
 
-🤝 Como Contribuir
+## 🤝 Como Contribuir
 Contribuições são bem-vindas! Siga esses passos:
 
 Faça um fork do projeto
@@ -83,7 +87,3 @@ Envie para a branch
 
 Abra um Pull Request
 
-📜 Licença
-MIT License - veja LICENSE para detalhes
-
-Feito com ❤️ por [Seu Nome] | GitHub
